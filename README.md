@@ -2,15 +2,15 @@
 ___
 ## 開発環境
 ```
-統合開発環境：Microsoft Visual Studio 2022 Community Edition 17.5.5  
-プログラム言語：C# 10.0  
+統合開発環境：Microsoft Visual Studio 2022 Community Edition 17.8.4  
+プログラム言語：C# 12  
 デスクトップ：Windows Formsアプリケーション
-フレームワーク：.NET 6.0.16  
-開発SDK：.NET SDK 6.0.408  
-データベース：Microsoft SQLServer 2022 Express CU3  
--データベース管理ツール：Microsoft SQL Server Management Studio 19.0.2
+フレームワーク：.NET 8.0.1  
+開発SDK：.NET SDK 8.0.101  
+データベース：Microsoft SQLServer 2022 Express CU11  
+-データベース管理ツール：Microsoft SQL Server Management Studio 19.3
 データベース接続：.NET Framework Data Provider for SQL Server  
-NuGetパッケージ：Install-Package Microsoft.Data.SqlClient -Version 5.1.1  
+NuGetパッケージ：Install-Package Microsoft.Data.SqlClient -Version 5.1.4  
 ```
 
 ![Img](Readme_img.png)  

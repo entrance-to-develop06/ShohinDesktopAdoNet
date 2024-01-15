@@ -77,7 +77,8 @@ namespace ShohinDesktopAdoNet
             this.Name = "form1Control";
             this.Text = "商品管理アプリ ADO.NET(.NET Core) + デスクトップアプリ + SQL Server";
             this.Location = new Point(500, 200);
-            this.ClientSize = new Size(800, 600);
+            this.Size = new Size(800, 600);
+            //this.ClientSize = new Size(800, 560);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             //this.AutoScaleDimensions = new SizeF(7F, 15F);

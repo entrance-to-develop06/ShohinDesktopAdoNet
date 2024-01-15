@@ -103,7 +103,7 @@ namespace ShohinDesktopAdoNet.FormDesigns
 
             labelFoot = new Label();
             labelFoot.AutoSize = false;
-            labelFoot.Text = "Copyright (c)  2021-2023  entrance-to-develop06";
+            labelFoot.Text = "Copyright (c)  2021-2024  entrance-to-develop06";
             labelFoot = (Label)(ControlsSetting(labelFoot, "LabelFoot", 30, 535, 300, 19));
 
             this.textBoxShohinCode = new TextBox();
