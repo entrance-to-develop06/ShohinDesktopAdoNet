@@ -2,15 +2,15 @@
 ___
 ## 開発環境
 ```
-統合開発環境：Microsoft Visual Studio 2022 Community Edition 17.14.18  
-プログラム言語：C# 12  
+統合開発環境：Microsoft Visual Studio 2022 Community Edition 18.9.1  
+プログラム言語：C# 14  
 デスクトップ：Windows Formsアプリケーション
-フレームワーク：.NET 8.0.21  
-開発SDK：.NET SDK 8.0.415  
-データベース：Microsoft SQLServer 2022 Express CU21  
--データベース管理ツール：Microsoft SQL Server Management Studio 21.6.17
+フレームワーク：.NET 10.0.11  
+開発SDK：.NET SDK 10.0.400  
+データベース：Microsoft SQLServer 2025 Express CU8  
+-データベース管理ツール：Microsoft SQL Server Management Studio 22.9.1
 データベース接続：.NET Framework Data Provider for SQL Server  
-NuGetパッケージ：Install-Package Microsoft.Data.SqlClient -Version 6.1.2  
+NuGetパッケージ：Install-Package Microsoft.Data.SqlClient -Version 7.0.2  
 ```
 
 ![Img](Readme_img.png)  
@@ -20,17 +20,17 @@ NuGetパッケージ：Install-Package Microsoft.Data.SqlClient -Version 6.1.2
 Microsoft SQL Server Management Studioのクエリーで以下を実行するかこれ相当をデザイナで作成します。  
 
 **データベース作成(Microsoft SQL Server ManagementStudioでのデフォルト相当)**  
-※Microsoft SQL Server 2022 Express Editionで名前付きインスタンスがSQLEXPRESSの場合のクエリーです。  
-別のインスタンス名やSQL Server 2019などのバージョンの場合はPathのMSSQL16.SQLEXPRESS(ディレクトリ名)  
+※Microsoft SQL Server 2025 Express Editionで名前付きインスタンスがSQLEXPRESSの場合のクエリーです。  
+別のインスタンス名やSQL Server 2022などのバージョンの場合はPathのMSSQL17.SQLEXPRESS(ディレクトリ名)  
 の数字が違いますのでご自身のディレクトリ名に合わせて下さい。  
 
 ```
 use [master]
 CREATE DATABASE AdoNetSample
 ON
-(NAME=AdoNetSample,FILENAME='C:\Program Files\Microsoft SQL Server\MSSQL16.SQLEXPRESS\MSSQL\DATA\AdoNetSample.mdf',SIZE=8MB,FILEGROWTH=64MB)
+(NAME=AdoNetSample,FILENAME='C:\Program Files\Microsoft SQL Server\MSSQL17.SQLEXPRESS\MSSQL\DATA\AdoNetSample.mdf',SIZE=8MB,FILEGROWTH=64MB)
 LOG ON
-(NAME=AdoNetSample_log,FILENAME='C:\Program Files\Microsoft SQL Server\MSSQL16.SQLEXPRESS\MSSQL\DATA\AdoNetSample_log.ldf',SIZE=8MB,FILEGROWTH=64MB)
+(NAME=AdoNetSample_log,FILENAME='C:\Program Files\Microsoft SQL Server\MSSQL17.SQLEXPRESS\MSSQL\DATA\AdoNetSample_log.ldf',SIZE=8MB,FILEGROWTH=64MB)
 	
 ALTER DATABASE AdoNetSample SET AUTO_CLOSE OFF
 ```
