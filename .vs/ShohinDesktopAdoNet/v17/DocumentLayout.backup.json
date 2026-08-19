@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Workspace\\DotNet\\ShohinDesktopAdoNet\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{69E109C8-6BD2-4C4F-8D38-169DF4E45A21}|ShohinDesktopAdoNet\\ShohinDesktopAdoNet.csproj|c:\\workspace\\dotnet\\shohindesktopadonet\\shohindesktopadonet\\models\\repositorys\\shohinrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69E109C8-6BD2-4C4F-8D38-169DF4E45A21}|ShohinDesktopAdoNet\\ShohinDesktopAdoNet.csproj|solutionrelative:shohindesktopadonet\\models\\repositorys\\shohinrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69E109C8-6BD2-4C4F-8D38-169DF4E45A21}|ShohinDesktopAdoNet\\ShohinDesktopAdoNet.csproj|c:\\workspace\\dotnet\\shohindesktopadonet\\shohindesktopadonet\\models\\repositorys\\dbconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69E109C8-6BD2-4C4F-8D38-169DF4E45A21}|ShohinDesktopAdoNet\\ShohinDesktopAdoNet.csproj|solutionrelative:shohindesktopadonet\\models\\repositorys\\dbconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69E109C8-6BD2-4C4F-8D38-169DF4E45A21}|ShohinDesktopAdoNet\\ShohinDesktopAdoNet.csproj|c:\\workspace\\dotnet\\shohindesktopadonet\\shohindesktopadonet\\models\\appservices\\shohinappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69E109C8-6BD2-4C4F-8D38-169DF4E45A21}|ShohinDesktopAdoNet\\ShohinDesktopAdoNet.csproj|solutionrelative:shohindesktopadonet\\models\\appservices\\shohinappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{69E109C8-6BD2-4C4F-8D38-169DF4E45A21}|ShohinDesktopAdoNet\\ShohinDesktopAdoNet.csproj|c:\\workspace\\dotnet\\shohindesktopadonet\\shohindesktopadonet\\form1control.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{69E109C8-6BD2-4C4F-8D38-169DF4E45A21}|ShohinDesktopAdoNet\\ShohinDesktopAdoNet.csproj|solutionrelative:shohindesktopadonet\\form1control.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,16 +23,8 @@
       "RelativeMoniker": "D:0:0:{69E109C8-6BD2-4C4F-8D38-169DF4E45A21}|ShohinDesktopAdoNet\\ShohinDesktopAdoNet.csproj|solutionrelative:shohindesktopadonet\\formdesigns\\form1design.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69E109C8-6BD2-4C4F-8D38-169DF4E45A21}|ShohinDesktopAdoNet\\ShohinDesktopAdoNet.csproj|c:\\workspace\\dotnet\\shohindesktopadonet\\shohindesktopadonet\\models\\repositorys\\shohinrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69E109C8-6BD2-4C4F-8D38-169DF4E45A21}|ShohinDesktopAdoNet\\ShohinDesktopAdoNet.csproj|solutionrelative:shohindesktopadonet\\models\\repositorys\\shohinrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{69E109C8-6BD2-4C4F-8D38-169DF4E45A21}|ShohinDesktopAdoNet\\ShohinDesktopAdoNet.csproj|c:\\workspace\\dotnet\\shohindesktopadonet\\shohindesktopadonet\\models\\domainobjects\\valueobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{69E109C8-6BD2-4C4F-8D38-169DF4E45A21}|ShohinDesktopAdoNet\\ShohinDesktopAdoNet.csproj|solutionrelative:shohindesktopadonet\\models\\domainobjects\\valueobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69E109C8-6BD2-4C4F-8D38-169DF4E45A21}|ShohinDesktopAdoNet\\ShohinDesktopAdoNet.csproj|c:\\workspace\\dotnet\\shohindesktopadonet\\shohindesktopadonet\\models\\repositorys\\dbconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69E109C8-6BD2-4C4F-8D38-169DF4E45A21}|ShohinDesktopAdoNet\\ShohinDesktopAdoNet.csproj|solutionrelative:shohindesktopadonet\\models\\repositorys\\dbconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{69E109C8-6BD2-4C4F-8D38-169DF4E45A21}|ShohinDesktopAdoNet\\ShohinDesktopAdoNet.csproj|c:\\workspace\\dotnet\\shohindesktopadonet\\shohindesktopadonet\\models\\domainobjects\\votime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{69E109C8-6BD2-4C4F-8D38-169DF4E45A21}|ShohinDesktopAdoNet\\ShohinDesktopAdoNet.csproj|c:\\workspace\\dotnet\\shohindesktopadonet\\shohindesktopadonet\\models\\domainobjects\\domainservices\\shohindomainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{69E109C8-6BD2-4C4F-8D38-169DF4E45A21}|ShohinDesktopAdoNet\\ShohinDesktopAdoNet.csproj|solutionrelative:shohindesktopadonet\\models\\domainobjects\\domainservices\\shohindomainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69E109C8-6BD2-4C4F-8D38-169DF4E45A21}|ShohinDesktopAdoNet\\ShohinDesktopAdoNet.csproj|c:\\workspace\\dotnet\\shohindesktopadonet\\shohindesktopadonet\\models\\appservices\\shohinappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69E109C8-6BD2-4C4F-8D38-169DF4E45A21}|ShohinDesktopAdoNet\\ShohinDesktopAdoNet.csproj|solutionrelative:shohindesktopadonet\\models\\appservices\\shohinappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{69E109C8-6BD2-4C4F-8D38-169DF4E45A21}|ShohinDesktopAdoNet\\ShohinDesktopAdoNet.csproj|c:\\workspace\\dotnet\\shohindesktopadonet\\shohindesktopadonet\\models\\appservices\\businessappexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -83,10 +83,6 @@
       "RelativeMoniker": "D:0:0:{69E109C8-6BD2-4C4F-8D38-169DF4E45A21}|ShohinDesktopAdoNet\\ShohinDesktopAdoNet.csproj|solutionrelative:shohindesktopadonet\\lastexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69E109C8-6BD2-4C4F-8D38-169DF4E45A21}|ShohinDesktopAdoNet\\ShohinDesktopAdoNet.csproj|c:\\workspace\\dotnet\\shohindesktopadonet\\shohindesktopadonet\\models\\domainobjects\\interfacerepositorys\\ishohinrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69E109C8-6BD2-4C4F-8D38-169DF4E45A21}|ShohinDesktopAdoNet\\ShohinDesktopAdoNet.csproj|solutionrelative:shohindesktopadonet\\models\\domainobjects\\interfacerepositorys\\ishohinrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{69E109C8-6BD2-4C4F-8D38-169DF4E45A21}|ShohinDesktopAdoNet\\ShohinDesktopAdoNet.csproj|C:\\Workspace\\DotNet\\ShohinDesktopAdoNet\\shohindesktopadonet\\form1control.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{69E109C8-6BD2-4C4F-8D38-169DF4E45A21}|ShohinDesktopAdoNet\\ShohinDesktopAdoNet.csproj|solutionrelative:shohindesktopadonet\\form1control.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
@@ -98,37 +94,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DbConfig.cs",
-              "DocumentMoniker": "C:\\Workspace\\DotNet\\ShohinDesktopAdoNet\\ShohinDesktopAdoNet\\Models\\Repositorys\\DbConfig.cs",
-              "RelativeDocumentMoniker": "ShohinDesktopAdoNet\\Models\\Repositorys\\DbConfig.cs",
-              "ToolTip": "C:\\Workspace\\DotNet\\ShohinDesktopAdoNet\\ShohinDesktopAdoNet\\Models\\Repositorys\\DbConfig.cs",
-              "RelativeToolTip": "ShohinDesktopAdoNet\\Models\\Repositorys\\DbConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-01-28T02:18:08.567Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1Design.cs",
-              "DocumentMoniker": "C:\\Workspace\\DotNet\\ShohinDesktopAdoNet\\ShohinDesktopAdoNet\\FormDesigns\\Form1Design.cs",
-              "RelativeDocumentMoniker": "ShohinDesktopAdoNet\\FormDesigns\\Form1Design.cs",
-              "ToolTip": "C:\\Workspace\\DotNet\\ShohinDesktopAdoNet\\ShohinDesktopAdoNet\\FormDesigns\\Form1Design.cs",
-              "RelativeToolTip": "ShohinDesktopAdoNet\\FormDesigns\\Form1Design.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGMAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-01-28T13:15:57.984Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "VoTime.cs",
               "DocumentMoniker": "C:\\Workspace\\DotNet\\ShohinDesktopAdoNet\\ShohinDesktopAdoNet\\Models\\DomainObjects\\VoTime.cs",
               "RelativeDocumentMoniker": "ShohinDesktopAdoNet\\Models\\DomainObjects\\VoTime.cs",
@@ -136,12 +106,11 @@
               "RelativeToolTip": "ShohinDesktopAdoNet\\Models\\DomainObjects\\VoTime.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAD4vxgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2022-11-23T02:51:23.523Z",
-              "EditorCaption": ""
+              "WhenOpened": "2022-11-23T02:51:23.523Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ValueObject.cs",
               "DocumentMoniker": "C:\\Workspace\\DotNet\\ShohinDesktopAdoNet\\ShohinDesktopAdoNet\\Models\\DomainObjects\\ValueObject.cs",
               "RelativeDocumentMoniker": "ShohinDesktopAdoNet\\Models\\DomainObjects\\ValueObject.cs",
@@ -149,18 +118,17 @@
               "RelativeToolTip": "ShohinDesktopAdoNet\\Models\\DomainObjects\\ValueObject.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2022-10-27T07:59:43.85Z",
-              "EditorCaption": ""
+              "WhenOpened": "2022-10-27T07:59:43.85Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 2,
               "Title": "ShohinAppService.cs",
               "DocumentMoniker": "C:\\Workspace\\DotNet\\ShohinDesktopAdoNet\\ShohinDesktopAdoNet\\Models\\AppServices\\ShohinAppService.cs",
               "RelativeDocumentMoniker": "ShohinDesktopAdoNet\\Models\\AppServices\\ShohinAppService.cs",
               "ToolTip": "C:\\Workspace\\DotNet\\ShohinDesktopAdoNet\\ShohinDesktopAdoNet\\Models\\AppServices\\ShohinAppService.cs",
               "RelativeToolTip": "ShohinDesktopAdoNet\\Models\\AppServices\\ShohinAppService.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAIwCsAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAACsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2022-10-19T05:23:00.248Z",
               "EditorCaption": ""
@@ -175,12 +143,11 @@
               "RelativeToolTip": "ShohinDesktopAdoNet\\Models\\DomainObjects\\Entitys\\ShohinEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2022-10-19T05:13:12.004Z",
-              "EditorCaption": ""
+              "WhenOpened": "2022-10-19T05:13:12.004Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ShohinDomainService.cs",
               "DocumentMoniker": "C:\\Workspace\\DotNet\\ShohinDesktopAdoNet\\ShohinDesktopAdoNet\\Models\\DomainObjects\\DomainServices\\ShohinDomainService.cs",
               "RelativeDocumentMoniker": "ShohinDesktopAdoNet\\Models\\DomainObjects\\DomainServices\\ShohinDomainService.cs",
@@ -188,25 +155,24 @@
               "RelativeToolTip": "ShohinDesktopAdoNet\\Models\\DomainObjects\\DomainServices\\ShohinDomainService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2022-10-19T05:12:18.41Z",
-              "EditorCaption": ""
+              "WhenOpened": "2022-10-19T05:12:18.41Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "ShohinRepository.cs",
               "DocumentMoniker": "C:\\Workspace\\DotNet\\ShohinDesktopAdoNet\\ShohinDesktopAdoNet\\Models\\Repositorys\\ShohinRepository.cs",
               "RelativeDocumentMoniker": "ShohinDesktopAdoNet\\Models\\Repositorys\\ShohinRepository.cs",
               "ToolTip": "C:\\Workspace\\DotNet\\ShohinDesktopAdoNet\\ShohinDesktopAdoNet\\Models\\Repositorys\\ShohinRepository.cs",
               "RelativeToolTip": "ShohinDesktopAdoNet\\Models\\Repositorys\\ShohinRepository.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAD4v1kAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2022-10-19T05:19:10.642Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Workspace\\DotNet\\ShohinDesktopAdoNet\\ShohinDesktopAdoNet\\Program.cs",
               "RelativeDocumentMoniker": "ShohinDesktopAdoNet\\Program.cs",
@@ -214,12 +180,11 @@
               "RelativeToolTip": "ShohinDesktopAdoNet\\Program.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAADwvxQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2022-10-20T02:36:20.024Z",
-              "EditorCaption": ""
+              "WhenOpened": "2022-10-20T02:36:20.024Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ShohinDto.cs",
               "DocumentMoniker": "C:\\Workspace\\DotNet\\ShohinDesktopAdoNet\\ShohinDesktopAdoNet\\Models\\AppServices\\DTOs\\ShohinDto.cs",
               "RelativeDocumentMoniker": "ShohinDesktopAdoNet\\Models\\AppServices\\DTOs\\ShohinDto.cs",
@@ -227,12 +192,11 @@
               "RelativeToolTip": "ShohinDesktopAdoNet\\Models\\AppServices\\DTOs\\ShohinDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2022-10-27T12:29:41.313Z",
-              "EditorCaption": ""
+              "WhenOpened": "2022-10-27T12:29:41.313Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Form1Control.cs",
               "DocumentMoniker": "C:\\Workspace\\DotNet\\ShohinDesktopAdoNet\\ShohinDesktopAdoNet\\Form1Control.cs",
               "RelativeDocumentMoniker": "ShohinDesktopAdoNet\\Form1Control.cs",
@@ -245,7 +209,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
+              "Title": "Form1Design.cs",
+              "DocumentMoniker": "C:\\Workspace\\DotNet\\ShohinDesktopAdoNet\\ShohinDesktopAdoNet\\FormDesigns\\Form1Design.cs",
+              "RelativeDocumentMoniker": "ShohinDesktopAdoNet\\FormDesigns\\Form1Design.cs",
+              "ToolTip": "C:\\Workspace\\DotNet\\ShohinDesktopAdoNet\\ShohinDesktopAdoNet\\FormDesigns\\Form1Design.cs",
+              "RelativeToolTip": "ShohinDesktopAdoNet\\FormDesigns\\Form1Design.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-01-28T13:15:57.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DbConfig.cs",
+              "DocumentMoniker": "C:\\Workspace\\DotNet\\ShohinDesktopAdoNet\\ShohinDesktopAdoNet\\Models\\Repositorys\\DbConfig.cs",
+              "RelativeDocumentMoniker": "ShohinDesktopAdoNet\\Models\\Repositorys\\DbConfig.cs",
+              "ToolTip": "C:\\Workspace\\DotNet\\ShohinDesktopAdoNet\\ShohinDesktopAdoNet\\Models\\Repositorys\\DbConfig.cs",
+              "RelativeToolTip": "ShohinDesktopAdoNet\\Models\\Repositorys\\DbConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-01-28T02:18:08.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Entity.cs",
               "DocumentMoniker": "C:\\Workspace\\DotNet\\ShohinDesktopAdoNet\\ShohinDesktopAdoNet\\Models\\DomainObjects\\Entity.cs",
               "RelativeDocumentMoniker": "ShohinDesktopAdoNet\\Models\\DomainObjects\\Entity.cs",
@@ -253,8 +242,7 @@
               "RelativeToolTip": "ShohinDesktopAdoNet\\Models\\DomainObjects\\Entity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2022-10-28T07:55:53.961Z",
-              "EditorCaption": ""
+              "WhenOpened": "2022-10-28T07:55:53.961Z"
             },
             {
               "$type": "Document",
@@ -266,8 +254,7 @@
               "RelativeToolTip": "ShohinDesktopAdoNet\\Models\\AppServices\\BusinessAppException.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2022-10-20T01:08:06.544Z",
-              "EditorCaption": ""
+              "WhenOpened": "2022-10-20T01:08:06.544Z"
             },
             {
               "$type": "Document",
@@ -279,8 +266,7 @@
               "RelativeToolTip": "ShohinDesktopAdoNet\\Models\\DomainObjects\\VoDate.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2022-10-28T10:32:45.061Z",
-              "EditorCaption": ""
+              "WhenOpened": "2022-10-28T10:32:45.061Z"
             },
             {
               "$type": "Document",
@@ -292,8 +278,7 @@
               "RelativeToolTip": "ShohinDesktopAdoNet\\Models\\DomainObjects\\ShohinValueObjects\\Remarks.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2022-10-28T12:22:30.42Z",
-              "EditorCaption": ""
+              "WhenOpened": "2022-10-28T12:22:30.42Z"
             },
             {
               "$type": "Document",
@@ -305,8 +290,7 @@
               "RelativeToolTip": "ShohinDesktopAdoNet\\Models\\DomainObjects\\DomainObjectException.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2022-10-28T12:29:33.195Z",
-              "EditorCaption": ""
+              "WhenOpened": "2022-10-28T12:29:33.195Z"
             },
             {
               "$type": "Document",
@@ -318,8 +302,7 @@
               "RelativeToolTip": "ShohinDesktopAdoNet\\Models\\DomainObjects\\ShohinValueObjects\\ShohinCode.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2022-10-28T07:47:13.661Z",
-              "EditorCaption": ""
+              "WhenOpened": "2022-10-28T07:47:13.661Z"
             },
             {
               "$type": "Document",
@@ -331,8 +314,7 @@
               "RelativeToolTip": "ShohinDesktopAdoNet\\Models\\DomainObjects\\ShohinValueObjects\\EditDateTime.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2022-10-28T07:44:37.098Z",
-              "EditorCaption": ""
+              "WhenOpened": "2022-10-28T07:44:37.098Z"
             },
             {
               "$type": "Document",
@@ -344,8 +326,7 @@
               "RelativeToolTip": "ShohinDesktopAdoNet\\Models\\AppServices\\DTOs\\DateTimeDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2022-10-27T12:29:12.409Z",
-              "EditorCaption": ""
+              "WhenOpened": "2022-10-27T12:29:12.409Z"
             },
             {
               "$type": "Document",
@@ -357,33 +338,18 @@
               "RelativeToolTip": "ShohinDesktopAdoNet\\LastException.cs",
               "ViewState": "AgIAACwAAAAAAAAAAAAQwF4AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2022-10-20T02:38:34.317Z",
-              "EditorCaption": ""
+              "WhenOpened": "2022-10-20T02:38:34.317Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "IShohinRepository.cs",
-              "DocumentMoniker": "C:\\Workspace\\DotNet\\ShohinDesktopAdoNet\\ShohinDesktopAdoNet\\Models\\DomainObjects\\InterfaceRepositorys\\IShohinRepository.cs",
-              "RelativeDocumentMoniker": "ShohinDesktopAdoNet\\Models\\DomainObjects\\InterfaceRepositorys\\IShohinRepository.cs",
-              "ToolTip": "C:\\Workspace\\DotNet\\ShohinDesktopAdoNet\\ShohinDesktopAdoNet\\Models\\DomainObjects\\InterfaceRepositorys\\IShohinRepository.cs",
-              "RelativeToolTip": "ShohinDesktopAdoNet\\Models\\DomainObjects\\InterfaceRepositorys\\IShohinRepository.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAmwA8AAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2022-10-19T05:13:58.66Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
               "Title": "Form1Control.cs [\u30C7\u30B6\u30A4\u30F3]",
               "DocumentMoniker": "C:\\Workspace\\DotNet\\ShohinDesktopAdoNet\\ShohinDesktopAdoNet\\Form1Control.cs",
               "RelativeDocumentMoniker": "ShohinDesktopAdoNet\\Form1Control.cs",
               "ToolTip": "C:\\Workspace\\DotNet\\ShohinDesktopAdoNet\\ShohinDesktopAdoNet\\Form1Control.cs [\u30C7\u30B6\u30A4\u30F3]",
               "RelativeToolTip": "ShohinDesktopAdoNet\\Form1Control.cs [\u30C7\u30B6\u30A4\u30F3]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2022-10-19T04:33:17.761Z",
-              "EditorCaption": " [\u30C7\u30B6\u30A4\u30F3]"
+              "WhenOpened": "2022-10-19T04:33:17.761Z"
             }
           ]
         }
