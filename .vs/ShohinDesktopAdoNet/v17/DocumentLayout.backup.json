@@ -3,6 +3,7 @@
   "WorkspaceRootPath": "C:\\Workspace\\DotNet\\ShohinDesktopAdoNet\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{69E109C8-6BD2-4C4F-8D38-169DF4E45A21}|ShohinDesktopAdoNet\\ShohinDesktopAdoNet.csproj|c:\\workspace\\dotnet\\shohindesktopadonet\\shohindesktopadonet\\models\\repositorys\\shohinrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{69E109C8-6BD2-4C4F-8D38-169DF4E45A21}|ShohinDesktopAdoNet\\ShohinDesktopAdoNet.csproj|solutionrelative:shohindesktopadonet\\models\\repositorys\\shohinrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,6 +12,8 @@
       "RelativeMoniker": "D:0:0:{69E109C8-6BD2-4C4F-8D38-169DF4E45A21}|ShohinDesktopAdoNet\\ShohinDesktopAdoNet.csproj|solutionrelative:shohindesktopadonet\\models\\repositorys\\dbconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+=======
+>>>>>>> deve2
       "AbsoluteMoniker": "D:0:0:{69E109C8-6BD2-4C4F-8D38-169DF4E45A21}|ShohinDesktopAdoNet\\ShohinDesktopAdoNet.csproj|c:\\workspace\\dotnet\\shohindesktopadonet\\shohindesktopadonet\\models\\appservices\\shohinappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{69E109C8-6BD2-4C4F-8D38-169DF4E45A21}|ShohinDesktopAdoNet\\ShohinDesktopAdoNet.csproj|solutionrelative:shohindesktopadonet\\models\\appservices\\shohinappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -94,10 +97,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
+=======
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DbConfig.cs",
+              "DocumentMoniker": "C:\\Workspace\\DotNet\\ShohinDesktopAdoNet\\ShohinDesktopAdoNet\\Models\\Repositorys\\DbConfig.cs",
+              "RelativeDocumentMoniker": "ShohinDesktopAdoNet\\Models\\Repositorys\\DbConfig.cs",
+              "ToolTip": "C:\\Workspace\\DotNet\\ShohinDesktopAdoNet\\ShohinDesktopAdoNet\\Models\\Repositorys\\DbConfig.cs",
+              "RelativeToolTip": "ShohinDesktopAdoNet\\Models\\Repositorys\\DbConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-01-28T02:18:08.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1Design.cs",
+              "DocumentMoniker": "C:\\Workspace\\DotNet\\ShohinDesktopAdoNet\\ShohinDesktopAdoNet\\FormDesigns\\Form1Design.cs",
+              "RelativeDocumentMoniker": "ShohinDesktopAdoNet\\FormDesigns\\Form1Design.cs",
+              "ToolTip": "C:\\Workspace\\DotNet\\ShohinDesktopAdoNet\\ShohinDesktopAdoNet\\FormDesigns\\Form1Design.cs",
+              "RelativeToolTip": "ShohinDesktopAdoNet\\FormDesigns\\Form1Design.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-01-28T13:15:57.984Z"
+            },
+            {
+              "$type": "Document",
+>>>>>>> deve2
               "DocumentIndex": 6,
               "Title": "VoTime.cs",
               "DocumentMoniker": "C:\\Workspace\\DotNet\\ShohinDesktopAdoNet\\ShohinDesktopAdoNet\\Models\\DomainObjects\\VoTime.cs",
@@ -110,7 +144,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 5,
+=======
+              "DocumentIndex": 4,
+>>>>>>> deve2
               "Title": "ValueObject.cs",
               "DocumentMoniker": "C:\\Workspace\\DotNet\\ShohinDesktopAdoNet\\ShohinDesktopAdoNet\\Models\\DomainObjects\\ValueObject.cs",
               "RelativeDocumentMoniker": "ShohinDesktopAdoNet\\Models\\DomainObjects\\ValueObject.cs",
@@ -122,7 +160,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 2,
+=======
+              "DocumentIndex": 0,
+>>>>>>> deve2
               "Title": "ShohinAppService.cs",
               "DocumentMoniker": "C:\\Workspace\\DotNet\\ShohinDesktopAdoNet\\ShohinDesktopAdoNet\\Models\\AppServices\\ShohinAppService.cs",
               "RelativeDocumentMoniker": "ShohinDesktopAdoNet\\Models\\AppServices\\ShohinAppService.cs",
@@ -159,7 +201,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 0,
+=======
+              "DocumentIndex": 3,
+>>>>>>> deve2
               "Title": "ShohinRepository.cs",
               "DocumentMoniker": "C:\\Workspace\\DotNet\\ShohinDesktopAdoNet\\ShohinDesktopAdoNet\\Models\\Repositorys\\ShohinRepository.cs",
               "RelativeDocumentMoniker": "ShohinDesktopAdoNet\\Models\\Repositorys\\ShohinRepository.cs",
@@ -167,8 +213,7 @@
               "RelativeToolTip": "ShohinDesktopAdoNet\\Models\\Repositorys\\ShohinRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2022-10-19T05:19:10.642Z",
-              "EditorCaption": ""
+              "WhenOpened": "2022-10-19T05:19:10.642Z"
             },
             {
               "$type": "Document",
@@ -196,7 +241,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 3,
+=======
+              "DocumentIndex": 1,
+>>>>>>> deve2
               "Title": "Form1Control.cs",
               "DocumentMoniker": "C:\\Workspace\\DotNet\\ShohinDesktopAdoNet\\ShohinDesktopAdoNet\\Form1Control.cs",
               "RelativeDocumentMoniker": "ShohinDesktopAdoNet\\Form1Control.cs",
@@ -209,6 +258,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 4,
               "Title": "Form1Design.cs",
               "DocumentMoniker": "C:\\Workspace\\DotNet\\ShohinDesktopAdoNet\\ShohinDesktopAdoNet\\FormDesigns\\Form1Design.cs",
@@ -234,6 +284,8 @@
             },
             {
               "$type": "Document",
+=======
+>>>>>>> deve2
               "DocumentIndex": 7,
               "Title": "Entity.cs",
               "DocumentMoniker": "C:\\Workspace\\DotNet\\ShohinDesktopAdoNet\\ShohinDesktopAdoNet\\Models\\DomainObjects\\Entity.cs",
@@ -343,6 +395,21 @@
             {
               "$type": "Document",
               "DocumentIndex": 20,
+<<<<<<< HEAD
+=======
+              "Title": "IShohinRepository.cs",
+              "DocumentMoniker": "C:\\Workspace\\DotNet\\ShohinDesktopAdoNet\\ShohinDesktopAdoNet\\Models\\DomainObjects\\InterfaceRepositorys\\IShohinRepository.cs",
+              "RelativeDocumentMoniker": "ShohinDesktopAdoNet\\Models\\DomainObjects\\InterfaceRepositorys\\IShohinRepository.cs",
+              "ToolTip": "C:\\Workspace\\DotNet\\ShohinDesktopAdoNet\\ShohinDesktopAdoNet\\Models\\DomainObjects\\InterfaceRepositorys\\IShohinRepository.cs",
+              "RelativeToolTip": "ShohinDesktopAdoNet\\Models\\DomainObjects\\InterfaceRepositorys\\IShohinRepository.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAmwA8AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2022-10-19T05:13:58.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+>>>>>>> deve2
               "Title": "Form1Control.cs [\u30C7\u30B6\u30A4\u30F3]",
               "DocumentMoniker": "C:\\Workspace\\DotNet\\ShohinDesktopAdoNet\\ShohinDesktopAdoNet\\Form1Control.cs",
               "RelativeDocumentMoniker": "ShohinDesktopAdoNet\\Form1Control.cs",

@@ -8,7 +8,7 @@ namespace ShohinDesktopAdoNet.Models.DomainObjects
 
         protected void IsNull(object? value)
         {
-            if (value == null)
+            if (value == null) //(value.Equals(null))
             {
                 StackFrame frame = new StackFrame(1);
                 string className = frame.GetMethod()!.ReflectedType!.Name;

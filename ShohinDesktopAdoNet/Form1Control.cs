@@ -30,7 +30,7 @@ namespace ShohinDesktopAdoNet
 
             fDesign.dataGridView1.DataSource = list;
             fDesign.DataGridSetting();
-            fDesign.richTextBox1.AppendText("全件表示しました。");
+            fDesign.richTextBox1.AppendText("全件表示しました。" + Environment.NewLine);
         }
 
         private void ButtonAdd_Click(object sender, EventArgs e)
@@ -38,7 +38,7 @@ namespace ShohinDesktopAdoNet
             try
             {
                 service.RegisterShohin(fDesign.textBoxShohinCode.Text, fDesign.textBoxShohinName.Text, fDesign.textBoxRemarks.Text);
-                MsgDialogModal("1件登録しました。", "メッセージ", MessageBoxIcon.Information);
+                MsgDialogModal("1件登録しました。" + Environment.NewLine, "メッセージ", MessageBoxIcon.Information);
             }
             catch (BusinessAppException ex)
             {
@@ -57,13 +57,13 @@ namespace ShohinDesktopAdoNet
             var name = fDesign.textBoxShohinName.Text;
             var note = fDesign.textBoxRemarks.Text;
             service.EditShohin(id, code, name, note);
-            MessageBox.Show("該当商品の内容を変更しました。");
+            MessageBox.Show("該当商品の内容を変更しました。" + Environment.NewLine);
         }
 
         private void ButtonErase_Click(object sender, EventArgs e)
         {
             service.RemoveShohin(fDesign.labelUniqueId.Text);
-            MessageBox.Show("該当商品を削除しました。");
+            MessageBox.Show("該当商品を削除しました。" + Environment.NewLine);
         }
 
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
