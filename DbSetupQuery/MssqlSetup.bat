@@ -39,14 +39,33 @@ pause
 exit
 
 
+:ALL_CREATE
+sqlcmd -S (local)\SQLEXPRESS -m 1 -i MssqlDbCreate.sql -v Pver="2025" -f 65001
+sqlcmd -S (local)\SQLEXPRESS -m 1 -i MssqlTableCreate.sql -f 65001
+sqlcmd -S (local)\SQLEXPRESS -m 1 -i MssqlDataInsert.sql -f 65001
+exit /b
+
+rem -m 1は、クエリファイル内のUSE [master]により出るメッセージを抑制するオプション
 :DB_CREATE
-sqlcmd -S (local)\SQLEXPRESS -i MssqlDbCreate.sql -v Pver="2025"
+sqlcmd -S (local)\SQLEXPRESS -m 1 -i MssqlDbCreate.sql -v Pver="2025" -f 65001
+exit /b
+
+:DB_DROP
+sqlcmd -S (local)\SQLEXPRESS -m 1 -i MssqlDbDrop.sql -f 65001
 exit /b
 
 :TABLE_CREATE
-sqlcmd -S (local)\SQLEXPRESS -i MssqlTableCreate.sql -f 65001
+sqlcmd -S (local)\SQLEXPRESS -m 1 -i MssqlTableCreate.sql -f 65001
 exit /b
 
 :TABLE_DROP
-sqlcmd -S (local)\SQLEXPRESS -i MssqlTableDrop.sql -f 65001
+sqlcmd -S (local)\SQLEXPRESS -m 1 -i MssqlTableDrop.sql -f 65001
+exit /b
+
+:DATA_INSERT
+sqlcmd -S (local)\SQLEXPRESS -m 1 -i MssqlDataInsert.sql -f 65001
+exit /b
+
+:DATA_DELETE
+sqlcmd -S (local)\SQLEXPRESS -m 1 -i MssqlDataDelete.sql -f 65001
 exit /b

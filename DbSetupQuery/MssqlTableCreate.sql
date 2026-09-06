@@ -4,6 +4,7 @@ DECLARE @DbName varchar(30) = 'AdoNetSample1'
 DECLARE @Schema varchar(30) = 'dbo'
 DECLARE @Table varchar(30) = 'shohins'
 
+SET NOCOUNT ON --システムメッセージの削除
 IF OBJECT_ID('[' + @DbName + '].[' + @Schema + '].[' + @Table + ']') IS NOT NULL
 	EXECUTE('DROP TABLE [' + @DBName + '].[' + @Schema + '].[' + @Table + ']')
 
@@ -18,9 +19,10 @@ BEGIN TRY
 		remarks varchar(255),               /*備考*/
 	primary key (unique_id))')
 	COMMIT TRANSACTION
+	PRINT(@Table + 'テーブルを作成しました。')
 END TRY
 BEGIN CATCH
 	ROLLBACK TRANSACTION
-	PRINT (@Table + 'テーブルの作成に失敗しました。')
+	PRINT (@Table + 'テーブルが作成できませんでした。')
 	PRINT (CAST(ERROR_MESSAGE() as varchar(200)))
 END CATCH

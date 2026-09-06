@@ -5,6 +5,8 @@ DECLARE @DbName varchar(30) = 'AdoNetSample1' --$(Pdbname)'
 DECLARE @DefaultPath varchar(200)
 DECLARE @Ver varchar(10) = '2025'
 
+SET NOCOUNT ON --システムメッセージの削除
+
 IF '$(Pver)' <> ''
 BEGIN
 	SET @ver = '$(Pver)'
@@ -29,4 +31,6 @@ LOG ON
 (NAME=''' + @DBName + '_log'',FILENAME=''' + @DefaultPath + @DBName + '_log.ldf'',SIZE=8MB,FILEGROWTH=64MB)')
 	
 EXECUTE('ALTER DATABASE ' + @DBName + ' SET AUTO_CLOSE OFF')
+
+PRINT(@DbName + 'データベースが作成されました。')
 GO

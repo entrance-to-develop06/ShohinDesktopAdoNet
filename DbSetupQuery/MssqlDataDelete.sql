@@ -6,8 +6,10 @@ DECLARE @Table varchar(30) = 'shohins'
 
 BEGIN TRY
 	BEGIN TRANSACTION
+	SET NOCOUNT ON --システムメッセージの削除
 	EXECUTE('DELETE FROM [' + @DBName + '].[' + @Schema + '].[' + @Table + '] ')
 	COMMIT TRANSACTION
+	PRINT(@Table + 'テーブル内のデータをすべて削除しました。')
 END TRY
 BEGIN CATCH
 	ROLLBACK TRANSACTION
