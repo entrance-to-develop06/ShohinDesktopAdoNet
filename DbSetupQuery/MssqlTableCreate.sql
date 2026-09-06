@@ -4,12 +4,12 @@ DECLARE @DbName varchar(30) = 'AdoNetSample1'
 DECLARE @Schema varchar(30) = 'dbo'
 DECLARE @Table varchar(30) = 'shohins'
 
-IF OBJECT_ID('[' + @DBName + '].[' + @Schema + '].[' + @Table + ']') IS NOT NULL
+IF OBJECT_ID('[' + @DbName + '].[' + @Schema + '].[' + @Table + ']') IS NOT NULL
 	EXECUTE('DROP TABLE [' + @DBName + '].[' + @Schema + '].[' + @Table + ']')
 
 BEGIN TRY
 	BEGIN TRANSACTION
-	EXECUTE ('CREATE TABLE [' + @DBName + '].[' + @Schema + '].[' + @Table + '] (
+	EXECUTE ('CREATE TABLE [' + @DbName + '].[' + @Schema + '].[' + @Table + '] (
 		unique_id char(36) NOT NULL,		/*ユニークID*/
 		shohin_code int NOT NULL,			/*商品番号*/
 		shohin_name char(50),				/*商品名*/

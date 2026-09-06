@@ -6,12 +6,11 @@ DECLARE @Table varchar(30) = 'shohins'
 
 BEGIN TRY
 	BEGIN TRANSACTION
-	IF OBJECT_ID('[' + @DBName + '].[' + @Schema + '].[' + @Table + ']') IS NOT NULL
-		EXECUTE('DROP TABLE [' + @DBName + '].[' + @Schema + '].[' + @Table + ']')
+	EXECUTE('DELETE FROM [' + @DBName + '].[' + @Schema + '].[' + @Table + '] ')
 	COMMIT TRANSACTION
 END TRY
 BEGIN CATCH
 	ROLLBACK TRANSACTION
-	PRINT (@Table + 'テーブルの削除に失敗しました。')
+	PRINT (@Table + 'テーブルのデータが削除できませんでした。')
 	PRINT (CAST(ERROR_MESSAGE() as varchar(200)))
 END CATCH
