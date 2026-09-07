@@ -1,6 +1,7 @@
 USE [master]
 
 DECLARE @DbName varchar(30) = 'AdoNetSample1' --$(Pdbname)'
+DECLARE @Sql NVARCHAR(MAX)
 
 SET NOCOUNT ON --システムメッセージの削除
 
@@ -10,8 +11,16 @@ BEGIN
 	--現在使用中のデータベースを削除できない問題を解消
 	EXECUTE('ALTER DATABASE [' + @DbName + '] SET SINGLE_USER WITH ROLLBACK IMMEDIATE')
 	
-	EXECUTE('DROP DATABASE ' + @DBName)
-	PRINT(@DbName + 'データベースを削除しました。')
+	BEGIN TRY
+		SET @Sql = N'DROP DATABASE ' + QUOTENAME(@DbName)
+		EXECUTE sp_executesql @Sql
+		PRINT(@DbName + 'データベースを削除しました。')
+	END TRY
+	BEGIN CATCH
+		PRINT(@DbName + 'データベースを削除できませんでした。')
+		PRINT('エラー番号：' + CAST(ERROR_NUMBER() AS VARCHAR(10)))
+		PRINT('エラーメッセージ：' + ERROR_MESSAGE())
+	END CATCH
 END
 ELSE
 BEGIN

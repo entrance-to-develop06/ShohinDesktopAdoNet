@@ -3,11 +3,16 @@ USE [master]
 DECLARE @DbName varchar(30) = 'AdoNetSample1'
 DECLARE @Schema varchar(30) = 'dbo'
 DECLARE @Table varchar(30) = 'shohins'
+DECLARE @Sql NVARCHAR(MAX)
+DECLARE @FullObjectName NVARCHAR(512)
+
+SET NOCOUNT ON --システムメッセージの削除
+SET @FullObjectName = QUOTENAME(@DbName) + N'.' + QUOTENAME(@Schema) + N'.' + QUOTENAME(@Table)
 
 BEGIN TRY
 	BEGIN TRANSACTION
-	SET NOCOUNT ON --システムメッセージの削除
-	EXECUTE('DELETE FROM [' + @DBName + '].[' + @Schema + '].[' + @Table + '] ')
+	SET @Sql = N'DELETE FROM ' + @FullObjectName
+	EXECUTE sp_executesql @Sql
 	COMMIT TRANSACTION
 	PRINT(@Table + 'テーブル内のデータをすべて削除しました。')
 END TRY

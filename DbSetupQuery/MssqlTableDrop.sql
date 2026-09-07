@@ -3,14 +3,24 @@ USE [master]
 DECLARE @DbName varchar(30) = 'AdoNetSample1'
 DECLARE @Schema varchar(30) = 'dbo'
 DECLARE @Table varchar(30) = 'shohins'
+DECLARE @Sql NVARCHAR(MAX)
+DECLARE @FullObjectName NVARCHAR(512)
 
 SET NOCOUNT ON --システムメッセージの削除
+SET @FullObjectName = QUOTENAME(@DbName) + N'.' + QUOTENAME(@Schema) + N'.' + QUOTENAME(@Table)
+
 BEGIN TRY
 	BEGIN TRANSACTION
-	IF OBJECT_ID('[' + @DbName + '].[' + @Schema + '].[' + @Table + ']') IS NOT NULL
-		EXECUTE('DROP TABLE [' + @DbName + '].[' + @Schema + '].[' + @Table + ']')
+	IF OBJECT_ID(@FullObjectName) IS NOT NULL
+	BEGIN
+		SET @Sql = N'DROP TABLE ' + @FullObjectName
+		EXECUTE sp_executesql @Sql
+		PRINT(@Table + 'テーブルが削除されました。')
+	END	
+	ELSE BEGIN
+		PRINT('テーブルが存在しませんでした。')
+	END
 	COMMIT TRANSACTION
-	PRINT(@Table + 'テーブルが削除されました。')
 END TRY
 BEGIN CATCH
 	ROLLBACK TRANSACTION
