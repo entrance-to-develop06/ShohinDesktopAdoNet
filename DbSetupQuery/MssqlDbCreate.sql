@@ -2,6 +2,7 @@ USE [master]
 
 DECLARE @Instance varchar(30) = 'SQLEXPRESS' --MSSQLSERVER
 DECLARE @DbName varchar(30) = 'AdoNetSample1' --$(Pdbname)'
+DECLARE @Sql NVARCHAR(MAX)
 DECLARE @DefaultPath varchar(200)
 DECLARE @Ver varchar(10) = '2025'
 
@@ -20,17 +21,29 @@ SET @DefaultPath = CASE @ver
 	ELSE 'MSSQL17.'
 END
 SET @DefaultPath = 'C:\Program Files\Microsoft SQL Server\' + @DefaultPath + @Instance + '\MSSQL\DATA\'
+SET @DbName = QUOTENAME(@DbName)
 
-IF DB_ID(@DBName) IS NOT NULL
-	EXECUTE('DROP DATABASE ' + @DBName)
+BEGIN TRY
+	IF DB_ID(@DbName) IS NOT NULL
+	BEGIN
+		SET @Sql = N'DROP DATABASE ' + @DbName
+		EXECUTE sp_executesql @Sql
+	END
 
-EXECUTE('CREATE DATABASE ' + @DBName + '
-ON
-(NAME=''' + @DBName + ''',FILENAME=''' + @DefaultPath + @DBName + '.mdf'',SIZE=8MB,FILEGROWTH=64MB)
-LOG ON
-(NAME=''' + @DBName + '_log'',FILENAME=''' + @DefaultPath + @DBName + '_log.ldf'',SIZE=8MB,FILEGROWTH=64MB)')
-	
-EXECUTE('ALTER DATABASE ' + @DBName + ' SET AUTO_CLOSE OFF')
+	SET @Sql = N'CREATE DATABASE ' + @DbName + '
+			ON
+			(NAME=''' + @DBName + ''',FILENAME=''' + @DefaultPath + @DBName + '.mdf'',SIZE=8MB,FILEGROWTH=64MB)
+			LOG ON
+			(NAME=''' + @DBName + '_log'',FILENAME=''' + @DefaultPath + @DBName + '_log.ldf'',SIZE=8MB,FILEGROWTH=64MB)'
+	EXECUTE sp_executesql @Sql
 
-PRINT(@DbName + 'データベースが作成されました。')
+	SET @Sql = N'ALTER DATABASE ' + @DBName + ' SET AUTO_CLOSE OFF'
+	EXECUTE sp_executesql @Sql
+	PRINT(@DbName + 'データベースが作成されました。')
+END TRY
+BEGIN CATCH
+	PRINT(@DbName + 'データベースを作成できませんでした。')
+	PRINT('エラー番号：' + CAST(ERROR_NUMBER() AS VARCHAR(10)))
+	PRINT('エラーメッセージ：' + ERROR_MESSAGE())
+END CATCH
 GO
